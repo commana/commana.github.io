@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		
+
+		<title>Programs</title>
+
+		
+		<link rel="stylesheet" href="https://commana.github.io/css/colors-dark.min.217a2547e8e6c808986d22ef70b50263c2d6a4bbc80ed42e97e280a41103f9b5.css">
+
+		
+	</head>
+	<body>
+		<header id="header">
+			<h1><a href="https://commana.github.io/">commana&#39;s home page</a></h1>
+			<p></p>
+		</header>
+
+		<div id="page">
+			<div id="sidebar">
+				<nav>
+	
+</nav>
+
+			</div>
+
+			<div id="content">
+				
+	<article class="post">
+		<h1><a href="https://commana.github.io/posts/programs/">Programs</a> </h1>
+
+		<div class="post-content">
+
+<blockquote>
+<p>I write an average of five new programs every week. Poets have to write poems. I have to write computer programs.
+- Donald Knuth</p>
+</blockquote>
+
+<p>Recently, I realized that I haven&rsquo;t been creating real programs for quite some time. I have been creating lots of throwaway scripts, sure, but nothing that felt like a real program. Something that you could give to another person and they would find it useful.</p>
+
+<p>I&rsquo;ve also done some LeetCode exercises to refresh my memory about algorithms and data structures. But these aren&rsquo;t real programs, are they?</p>
+
+<p>To me, a program should be something that is complete in itself and does something useful. It should be limited in its feature set, just like the Unix Philosophy says: &ldquo;Write programs that do one thing and do it well.&rdquo;</p>
+
+<p>Therefore, inspired by Knuth&rsquo;s quote, I set out to craft new programs. I might not be able to code five programs per week, but I take this as a challenge to learn something new every time.</p>
+
+<h2 id="inspirations">Inspirations</h2>
+
+<p>Here&rsquo;s a list of ideas for programs I gathered before writing this essay. New ideas will get added in the future. For every idea, there is a high-level estimate of its complexity.</p>
+
+<p>Once I make progress towards these ideas, I will update the sections with more information and possibly a link to a new essay that goes more in-depth.</p>
+
+<h3 id="use-ftl-sdk-to-send-a-video-to-mixer-com">Use FTL-SDK to send a video to mixer.com</h3>
+
+<p>Since I&rsquo;m a casual streamer on <a href="https://mixer.com/Brentarus">mixer.com/Brentarus</a>, I decided it would be fun to have a lightweight way of sending a video to my Mixer page. Normally, I stream using OBS, but I thought it would be fun to figure out the most bare-bone way of streaming.</p>
+
+<p>The idea is to use the official FTL-SDK that Mixer provides and which OBS uses. The SDK provides a small example application, so this program will be more about infrastructure (eg. Docker) than probably about writing actual code.</p>
+
+<p><em>Estimate: Small</em></p>
+
+<h3 id="pubg-api-stats-cli">PUBG-API Stats CLI</h3>
+
+<p>Speaking of streaming, my favorite game for the moment is PUBG on Xbox. As is the norm with modern games, they provide an API that lets players look into details of a given match that has been played.</p>
+
+<p>I would like to display a small summary of the recent matches I played, plus the ability to see the rankings of each match on the CLI.</p>
+
+<p><em>Estimate: Small</em></p>
+
+<h3 id="pubg-console-player-queue">PUBG Console Player Queue</h3>
+
+<p>PUBG on Xbox in Europe has the problem that there are very few players online during the day or late at night. Since we usually have no idea how many players are online, maybe we could leverage PUBG&rsquo;s API to see how many games with how many players were playing in the last 15 minutes or so. This should give some sort of estimate of how many players may still be playing at a particular time of day.</p>
+
+<p><em>Estimate: Small</em></p>
+
+<h3 id="imager-viewer-with-code-support">Imager viewer with code support</h3>
+
+<p>Previously, I had an idea about a minimal image viewer that supports manipulation through a lisp-like language. I started this project but lost interest along the way.</p>
+
+<p>I recently came across the <a href="https://100r.co/site/ronin.html">Ronin project</a> which is quite similar to my idea. This is a clear opportunity to revive my project.</p>
+
+<p><em>Estimate: Big</em></p>
+
+<h3 id="blog-editor">Blog editor</h3>
+
+<p>Using VSCode for my blog somehow doesn&rsquo;t feel right. It&rsquo;s too overpowered for simple blogging. A funny idea would, therefore, be to write a simple Markdown-based editor that supports my blogging workflow.</p>
+
+<p><em>Estimate: Big</em></p>
+
+<h3 id="the-brentarus-programming-language">The Brentarus programming language</h3>
+
+<p>If you can write your own editor, maybe you could also write your own programming language. Why not? It&rsquo;s been a long time since I have developed a language. Time to start something new and have fun.</p>
+
+<p><em>Estimate: Huge</em></p>
+
+<h3 id="write-unit-tests-for-a-random-oss-project">Write Unit Tests for a random OSS project</h3>
+
+<p>I like writing unit tests, and I try to write as many as I can for my projects. However, there are projects out there that could also benefit from testing. So my idea would be to find a project I like and try to add some test cases.</p>
+
+<p>I understand not every project wants to have tests, or tests just for the sake of them. So we will see if there ever arises an opportunity.</p>
+
+<p><em>Estimate: Small</em></p>
+
+<h3 id="learning-progress-microservice">&ldquo;Learning Progress&rdquo; Microservice</h3>
+
+<p>This one has been on my todo list for a while now. For the arsnova.eu project, which is in a phase of transitioning its monolithic Java Spring backend into a microservice architecture, my task would be to extract a specific feature called the &ldquo;learning progress&rdquo;:</p>
+
+<p>This feature calculates the rate of questions answered correctly by a student and a class, to answer the question: how well is everyone learning?</p>
+
+<p><em>Estimate: Medium</em></p>
+
+<h3 id="pubg-cli-tool-to-extract-clips-from-a-recording">PUBG CLI Tool to extract clips from a recording</h3>
+
+<p>As I said, I like streaming PUBG. For now, I extract interesting clips manually from my recordings. Having the PUBG API (see above), it would be easy to automatically generate markers for events that happened in a particular game. Using those, I could quickly create clips of those events.</p>
+
+<p><em>Estimate: Small</em></p>
+
+<h3 id="write-an-openra-ai">Write an OpenRA AI</h3>
+
+<p>This one I found on Hacker News: Guidelines for writing an AI player for the OpenRA game. I&rsquo;ve led a project that worked on OpenRA in the past, so this open-source game is always of interest to me.</p>
+
+<p>The goal would be to write a really simple AI. Nothing fancy. But let&rsquo;s see where we could go from there.</p>
+
+<p><em>Estimate: Medium</em></p>
+
+<hr />
+
+<p>(To be continued.)</p>
+
+<p>This is a living document. Once new ideas arise, I will add them here. Besides, as mentioned earlier, I&rsquo;m going to update the respective section once I make progress on any of the ideas.</p>
+</div>
+
+		<p class="meta">Posted on <span class="postdate">09. May 2020</span></p>
+	</article>
+
+			</div>
+
+			<footer id="footer">
+				<p class="copyright">
+					
+						Powered by <a href="https://gohugo.io/">Hugo</a> and the
+						<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.
+					
+				</p>
+			</footer>
+		</div>
+
+		
+	</body>
+</html>

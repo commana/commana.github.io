@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>commana&#39;s home page</title>
@@ -6,9 +6,30 @@
     <description>Recent content on commana&#39;s home page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 09 May 2020 00:10:56 +0200</lastBuildDate>
     
 	<atom:link href="https://commana.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Programs</title>
+      <link>https://commana.github.io/posts/programs/</link>
+      <pubDate>Sat, 09 May 2020 00:10:56 +0200</pubDate>
+      
+      <guid>https://commana.github.io/posts/programs/</guid>
+      <description>I write an average of five new programs every week. Poets have to write poems. I have to write computer programs. - Donald Knuth
+ Recently, I realized that I haven&amp;rsquo;t been creating real programs for quite some time. I have been creating lots of throwaway scripts, sure, but nothing that felt like a real program. Something that you could give to another person and they would find it useful.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://commana.github.io/about/</link>
+      <pubDate>Wed, 15 Apr 2020 23:32:01 +0200</pubDate>
+      
+      <guid>https://commana.github.io/about/</guid>
+      <description>Welcome to my site, stranger! Happy to have you here.
+My first &amp;ldquo;home page&amp;rdquo; went online shortly after I got access to the Internet, which was approximately in 1997. I&amp;rsquo;ve maintained my site through high school first using Microsoft Frontpage, then later I taught myself HTML and CSS to design my web page. Back in the day, everybody had their personal space, for example, with a link section to other interesting sites.</description>
+    </item>
     
   </channel>
 </rss>

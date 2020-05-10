@@ -1,23 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on YOLO</title>
+    <title>Posts on commana&#39;s home page</title>
     <link>https://commana.github.io/posts/</link>
-    <description>Recent content in Posts on YOLO</description>
+    <description>Recent content in Posts on commana&#39;s home page</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language>
-    <lastBuildDate>Wed, 15 Apr 2020 17:46:52 +0200</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 May 2020 00:10:56 +0200</lastBuildDate>
     
 	<atom:link href="https://commana.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://commana.github.io/posts/my-first-post/</link>
-      <pubDate>Wed, 15 Apr 2020 17:46:52 +0200</pubDate>
+      <title>Programs</title>
+      <link>https://commana.github.io/posts/programs/</link>
+      <pubDate>Sat, 09 May 2020 00:10:56 +0200</pubDate>
       
-      <guid>https://commana.github.io/posts/my-first-post/</guid>
-      <description>Hello World How is everybody today?</description>
+      <guid>https://commana.github.io/posts/programs/</guid>
+      <description>I write an average of five new programs every week. Poets have to write poems. I have to write computer programs. - Donald Knuth
+ Recently, I realized that I haven&amp;rsquo;t been creating real programs for quite some time. I have been creating lots of throwaway scripts, sure, but nothing that felt like a real program. Something that you could give to another person and they would find it useful.</description>
     </item>
     
   </channel>
