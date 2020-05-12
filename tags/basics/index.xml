@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on commana&#39;s home page</title>
-    <link>https://commana.github.io/posts/</link>
-    <description>Recent content in Posts on commana&#39;s home page</description>
+    <title>basics on commana&#39;s home page</title>
+    <link>https://commana.github.io/tags/basics/</link>
+    <description>Recent content in basics on commana&#39;s home page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 May 2020 19:10:49 +0200</lastBuildDate>
     
-	<atom:link href="https://commana.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://commana.github.io/tags/basics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>https://commana.github.io/posts/c/</guid>
       <description>The C programming language can be difficult for developers that are used to high-level concepts and libraries from their favorite language. At least for me, going &amp;ldquo;back&amp;rdquo; to C from languages like Java or JavaScript feels daunting.
 Since I decided to write programs in the spirit of Donald Knuth, I took on two projects that I am going to write in C: an image viewer with programming language support &amp;ndash; where the programming language will be the second project.</description>
-    </item>
-    
-    <item>
-      <title>Programs</title>
-      <link>https://commana.github.io/posts/programs/</link>
-      <pubDate>Sat, 09 May 2020 00:10:56 +0200</pubDate>
-      
-      <guid>https://commana.github.io/posts/programs/</guid>
-      <description>&amp;ldquo;I write an average of five new programs every week. Poets have to write poems. I have to write computer programs.&amp;rdquo; -Donald Knuth
- Recently, I realized that I haven&amp;rsquo;t been creating real programs for quite some time. I have been creating lots of throwaway scripts, sure, but nothing that felt like a real program. Something that you could give to another person and they would find it useful.</description>
     </item>
     
   </channel>

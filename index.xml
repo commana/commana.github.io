@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>C</title>
+      <link>https://commana.github.io/posts/c/</link>
+      <pubDate>Tue, 12 May 2020 19:10:49 +0200</pubDate>
+      
+      <guid>https://commana.github.io/posts/c/</guid>
+      <description>The C programming language can be difficult for developers that are used to high-level concepts and libraries from their favorite language. At least for me, going &amp;ldquo;back&amp;rdquo; to C from languages like Java or JavaScript feels daunting.
+Since I decided to write programs in the spirit of Donald Knuth, I took on two projects that I am going to write in C: an image viewer with programming language support &amp;ndash; where the programming language will be the second project.</description>
+    </item>
+    
+    <item>
       <title>Programs</title>
       <link>https://commana.github.io/posts/programs/</link>
       <pubDate>Sat, 09 May 2020 00:10:56 +0200</pubDate>
